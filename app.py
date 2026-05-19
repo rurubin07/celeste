@@ -264,28 +264,30 @@ if st.session_state.selected_booth:
 
     st.markdown(f"## {booth_name}")
 
-st.markdown(f"""
-<div class="booth-card">
+    st.markdown(f"""
+    <div class="booth-card">
 
-    <b>📍 위치</b><br>
-    {booth['location']}<br><br>
+        <b>📍 위치</b><br>
+        {booth['location']}<br><br>
 
-    <b>📝 설명</b><br>
-    {booth['desc']}
+        <b>📝 설명</b><br>
+        {booth['desc']}
 
-</div>
-""", unsafe_allow_html=True)
+    </div>
+    """, unsafe_allow_html=True)
 
     # 인스타 버튼
     if booth.get("instagram"):
+
         st.link_button(
             "📸 인스타그램",
             booth["instagram"],
             use_container_width=True
         )
 
-    # 추가 인스타
+    # 추가 인스타 버튼
     if booth.get("instagram2"):
+
         st.link_button(
             "📸 추가 인스타그램",
             booth["instagram2"],
@@ -297,9 +299,14 @@ st.markdown(f"""
     for image_path in booth["images"]:
 
         if Path(image_path).exists():
-            st.image(image_path, use_container_width=True)
+
+            st.image(
+                image_path,
+                use_container_width=True
+            )
 
         else:
+
             st.warning(f"이미지 없음: {image_path}")
 
     st.stop()
