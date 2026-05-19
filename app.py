@@ -265,11 +265,22 @@ if st.session_state.selected_booth:
     st.markdown(f"## {booth_name}")
 
 with st.container(border=True):
+
     st.markdown("**📍 위치**")
-    st.write(booth["location"])
+    st.write(
+        booth.get(
+            "location",
+            "위치 정보 없음"
+        )
+    )
 
     st.markdown("**📝 설명**")
-    st.write(booth["desc"])
+    st.write(
+        booth.get(
+            "desc",
+            "설명 없음"
+        )
+    )
 
     # 인스타 버튼
     if booth.get("instagram"):
