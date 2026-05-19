@@ -274,23 +274,21 @@ if st.session_state.selected_booth:
     </div>
     """, unsafe_allow_html=True)
 
-    # -----------------------------
     # 인스타 버튼
-    # -----------------------------
-    # 메인 인스타
-if booth.get("instagram"):
-    st.link_button(
-        "📸 인스타그램",
-        booth["instagram"],
-        use_container_width=True
-    )
+    if booth.get("instagram"):
+        st.link_button(
+            "📸 인스타그램",
+            booth["instagram"],
+            use_container_width=True
+        )
 
-if booth.get("instagram2"):
-    st.link_button(
-        "📸 추가 인스타그램",
-        booth["instagram2"],
-        use_container_width=True
-    )
+    # 추가 인스타
+    if booth.get("instagram2"):
+        st.link_button(
+            "📸 추가 인스타그램",
+            booth["instagram2"],
+            use_container_width=True
+        )
 
     st.markdown("### 📋 메뉴판")
 
