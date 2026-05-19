@@ -264,10 +264,15 @@ if st.session_state.selected_booth:
 
     st.markdown(f"## {booth_name}")
 
-    st.markdown(f"""
+st.markdown(f"""
 <div class="booth-card">
+
+    <b>📍 위치</b><br>
+    {booth['location']}<br><br>
+
     <b>📝 설명</b><br>
     {booth['desc']}
+
 </div>
 """, unsafe_allow_html=True)
 
