@@ -264,17 +264,12 @@ if st.session_state.selected_booth:
 
     st.markdown(f"## {booth_name}")
 
-    st.markdown(f"""
-    <div class="booth-card">
+with st.container(border=True):
+    st.markdown("**📍 위치**")
+    st.write(booth["location"])
 
-        <b>📍 위치</b><br>
-        {booth['location']}<br><br>
-
-        <b>📝 설명</b><br>
-        {booth['desc']}
-
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown("**📝 설명**")
+    st.write(booth["desc"])
 
     # 인스타 버튼
     if booth.get("instagram"):
