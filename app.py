@@ -53,7 +53,7 @@ booths = {
     "인공지능": {
         "location": "운동장 왼쪽 라인",
         "desc": "인공지능학과 부스입니다.",
-        "images": []
+        "images": ["images/ai.jpg"]
     },
     "대패": {
         "location": "운동장 왼쪽 라인",
@@ -63,87 +63,87 @@ booths = {
     "철학": {
         "location": "운동장 왼쪽 라인",
         "desc": "철학과 부스입니다.",
-        "images": []
+        "images": ["images/phi1.jpg", "images/phi2.jpg", "images/phi3.jpg"]
     },
     "법학": {
         "location": "운동장 왼쪽 라인",
         "desc": "법학과 부스입니다.",
-        "images": []
+        "images": ["images/law1.jpg", "images/law2.jpg", "images/law3.jpg"]
     },
     "특교": {
         "location": "운동장 왼쪽 라인",
         "desc": "특수교육과 부스입니다.",
-        "images": []
+        "images": ["images/vrse.jpg"]
     },
     "중문": {
         "location": "운동장 왼쪽 라인",
         "desc": "중국언어문화학과 부스입니다.",
-        "images": []
+        "images": ["images/chi.jpg"]
     },
     "심리": {
         "location": "운동장 왼쪽 라인",
         "desc": "심리학과 부스입니다.",
-        "images": []
+        "images": ["images/psy1.jpg", "images/psy2.jpg"]
     },
     "영문": {
         "location": "운동장 왼쪽 라인",
         "desc": "영어영문학부 부스입니다.",
-        "images": []
+        "images": ["images/eng.jpg"]
     },
     "의생명": {
         "location": "운동장 왼쪽 라인",
         "desc": "의생명과학과 부스입니다.",
-        "images": []
+        "images": ["images/med1.jpg", "images/med2.jpg", "images/med3.jpg"]
     },
     "더게임/회계": {
         "location": "운동장 왼쪽 라인",
         "desc": "더게임/회계 부스입니다.",
-        "images": []
+        "images": ["images/acc1.jpg", "images/acc2.jpg"]
     },
-    "화/국제": {
+    "획/국제": {
         "location": "운동장 왼쪽 라인",
-        "desc": "화학/국제 부스입니다.",
-        "images": []
+        "desc": "획/국제 부스입니다.",
+        "images": ["images/sis1.jpg", "images/sis2.jpg"]
     },
     "바스타즈": {
         "location": "운동장 왼쪽 라인",
         "desc": "바스타즈 부스입니다.",
-        "images": []
+        "images": ["images/bas1.jpg", "images/bas2.jpg"]
     },
     "국문": {
         "location": "운동장 왼쪽 라인",
         "desc": "국어국문학과 부스입니다.",
-        "images": []
+        "images": ["images/kor1.jpg", "images/kor2.jpg"]
     },
     "생과대": {
         "location": "운동장 왼쪽 라인",
         "desc": "생활과학대학 부스입니다.",
-        "images": []
+        "images": ["images/ls1.jpg", "images/ls2.jpg"]
     },
     "국사": {
         "location": "운동장 오른쪽 라인",
         "desc": "국사학과 부스입니다.",
-        "images": []
+        "images": ["images/his.jpg"]
     },
     "바메숲": {
         "location": "운동장 오른쪽 라인",
         "desc": "바메숲 부스입니다.",
-        "images": []
+        "images": ["images/bmcs.jpg"]
     },
     "컴공": {
         "location": "운동장 오른쪽 라인",
         "desc": "컴퓨터공학부 부스입니다.",
-        "images": []
+        "images": ["images/com.jpg"]
     },
     "생공": {
         "location": "운동장 오른쪽 라인",
         "desc": "생명공학과 부스입니다.",
-        "images": []
+        "images": ["images/bt1.jpg", "images/bt2.jpg", "images/bt3.jpg"]
     },
     "일문": {
         "location": "운동장 오른쪽 라인",
         "desc": "일어일본문화학과 부스입니다.",
-        "images": []
+        "images": ["images/jap.jpg"]
     },
     "경영": {
         "location": "운동장 오른쪽 라인",
@@ -153,17 +153,17 @@ booths = {
     "예환공": {
         "location": "운동장 오른쪽 라인",
         "desc": "에너지환경공학과 부스입니다.",
-        "images": []
+        "images": ["images/eh1.jpg", "images/eh2.jpg", "images/eh3.jpg", "images/eh4.jpg", "images/eh5.jpg"]
     },
     "미콘": {
         "location": "운동장 오른쪽 라인",
         "desc": "미디어콘텐츠학과 부스입니다.",
-        "images": []
+        "images": ["images/mc1.jpg", "images/mc2.jpg"]
     },
     "정통": {
         "location": "운동장 오른쪽 라인",
         "desc": "정보통신전자공학부 부스입니다.",
-        "images": []
+        "images": ["images/ice.jpg"]
     },
     "바메화공": {
         "location": "운동장 오른쪽 라인",
@@ -173,12 +173,12 @@ booths = {
     "사회": {
         "location": "운동장 오른쪽 라인",
         "desc": "사회학과 부스입니다.",
-        "images": []
+        "images": ["images/soc.jpg"]
     },
     "데사": {
         "location": "운동장 오른쪽 라인",
         "desc": "데이터사이언스학과 부스입니다.",
-        "images": []
+        "images": ["images/dcs1.jpg", "images/dcs2.jpg", "images/dcs3.jpg"]
     },
     "소피바라": {
         "location": "운동장 오른쪽 라인",
