@@ -278,17 +278,16 @@ if st.session_state.selected_booth:
     # 인스타 버튼
     # -----------------------------
     # 메인 인스타
-st.link_button(
-    "📸 인스타그램",
-    booth["instagram"],
-    use_container_width=True
-)
-
-# 두 번째 인스타가 있으면 추가 표시
-if booth.get("instagram2"):
-
+if booth.get("instagram"):
     st.link_button(
-        "📸 추가 인스타",
+        "📸 인스타그램",
+        booth["instagram"],
+        use_container_width=True
+    )
+
+if booth.get("instagram2"):
+    st.link_button(
+        "📸 추가 인스타그램",
         booth["instagram2"],
         use_container_width=True
     )
