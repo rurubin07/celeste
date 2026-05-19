@@ -188,7 +188,7 @@ booths = {
         "images": []
     },
 
-    "예환공": {
+    "에환공": {
         "location": "운동장 오른쪽 라인",
         "desc": "에너지환경공학과 부스입니다.",
         "instagram": "https://www.instagram.com/cuk_energy_envtech?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -197,7 +197,7 @@ booths = {
 
     "미콘": {
         "location": "운동장 오른쪽 라인",
-        "desc": "미디어기숧콘텐츠학과 부스입니다.",
+        "desc": "미디어기술콘텐츠학과 부스입니다.",
         "instagram": "https://www.instagram.com/cuk_mtc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
         "images": ["images/mc1.jpg", "images/mc2.jpg"]
     },
@@ -353,12 +353,12 @@ left_booths = [
 
 right_booths = [
     "국사",
-    "바메숲",
+    "바메솦",
     "컴공",
     "생공",
     "일문",
     "경영",
-    "예환공",
+    "에환공",
     "미콘",
     "정통",
     "바메화공",
